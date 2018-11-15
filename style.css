@@ -1,0 +1,59 @@
+body{
+	background-image: url("wgn.jpg");
+	background-blend-mode: screen;
+	background-size: cover;
+	background-color: rgb(70, 20, 20);
+}
+
+.nav {
+	margin-top: 15px;
+	color: black;
+	display: flex;
+	width: flex-end;
+	justify-content:flex-end;
+	align-items: center;
+
+}
+
+.nav ul{
+	margin: 0px 3px;
+}
+.nav li{
+	background-color: rgb(215, 198, 198);
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 5px;
+	text-align:center;
+	border-radius: 5px;
+	margin: 0px 6px;
+	height: 60px;
+	
+	flex-grow: 1s 1.1;
+	transition: all 1s;
+
+}
+
+.nav li:hover {
+	transform: scale(1.1);
+	
+}
+
+.jumbotron {
+	margin-top: 20px;
+	background-color: rgba(46, 15, 15, 0.85);
+	color: white;
+	border: 2px solid black;
+}
+.btn{
+	background-color: red;
+}
+.btn:hover{
+	background-color: black;
+}
+
+.jumbotron-fluid img{
+	height: 300px;
+	width: 350px
+	
+}
