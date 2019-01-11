@@ -2,7 +2,6 @@ body{
 	background-image: url("wgn.jpg");
 	background-blend-mode: screen;
 	background-size: cover;
-	background-color: rgb(70, 20, 20);
 }
 
 .nav {
