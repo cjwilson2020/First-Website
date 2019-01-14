@@ -1,70 +1,61 @@
 body{
 	
 }
-
-.profile {
-	border-radius: 50%;
-	flex-grow: 1s 1.1;
-	transition: all 1s;
-	height: 300px;
-	width:300px;
+.contact{
+	border: 2px solid black;
 }
-
-.profile:hover {
-	transform: scale(1.1);
-	
-}
-
 
 .nav {
-
 	margin-top: 15px;
-	color: black;
-
-	display: grid;
-	grid-template-columns: 200px 50px 50px 50px 50px;
-	grid-template-rows: auto;
-	grid-template-areas: 
-		"head1 head2";
-
-	grid-column-gap: 50px;
-	border-bottom: 5px solid rgb(50,50, 200);
-	padding-right: 88px;
-	align-items: center;
-
+	border-bottom: 5px solid rgb(120,150, 200);
+	padding-right:88px;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
 }
-.contact{
-	border: 3px solid black;
-}
+
+
 
 .nav h1{
-	grid-area: head1;
+	align-self: flex-start;
 	font-family: Georgia;
-	color: rgb(180, 180, 255);
+	font-size: 44pt;
 }
 .nav ul{
-	grid-area: head2;
+
 	margin: 0px 3px;
+	
 }
 .nav li{
-	display: inline-block;
+	color: black;
 	text-decoration: none;
+	display: inline-block;
+	
 	font-size: 20px;
-	padding: 15px 5px;
+	padding: 15px 15px;
 	text-align:center;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin: 0px 6px;
 	height: 60px;
 	
-
 	flex-grow: 1s 1.1;
 	transition: all 1s;
-
 }
 
 .nav li:hover {
 	transform: scale(1.1);
-	
+}
+
+.nav a:link{
+	text-decoration: none;
+	color: black;
+
+}
+
+.nav a:visited{
+	text-decoration: none;
+	color: black;
+
 }
 
 .page {
@@ -93,7 +84,17 @@ body{
 	margin: 0px 3px;
 }
 
+.profile {
+	border-radius: 50%;
+	flex-grow: 1s 1.1;
+	transition: all 1s;
+	height: 300px;
+	width:300px;
+}
 
+.profile:hover {
+	transform: scale(1.1);
+}
 
 .jumbotron {
 	margin-top: 20px;
