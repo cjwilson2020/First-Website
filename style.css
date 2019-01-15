@@ -1,16 +1,15 @@
 body{
+	font-family: monospace;
+	color: white;
+	background-image: url("back.jpg");
+	background-color: rgba(20, 20, 20, 80%);
+	background-blend-mode: darken;
+	
 	
 }
 
-h1 {
-	
-}
-
-a {
-	font-family: inherit;
-}
 .contact{
-	border: 2px solid black;
+	border: 2px solid white;
 }
 
 .nav {
@@ -25,7 +24,6 @@ a {
 
 .nav h1{
 	align-self: flex-start;
-	font-family: Georgia;
 	font-size: 44pt;
 }
 .nav ul{
@@ -34,7 +32,6 @@ a {
 	
 }
 .nav li{
-	color: black;
 	text-decoration: none;
 	display: inline-block;
 	
@@ -55,13 +52,12 @@ a {
 
 .nav a:link{
 	text-decoration: none;
-	color: black;
-
+	color: white;
 }
 
 .nav a:visited{
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 
@@ -98,6 +94,7 @@ a {
 }
 
 p{
+	font-size: 12pt;
 	margin: 10px;
 }
 
