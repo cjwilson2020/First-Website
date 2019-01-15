@@ -1,38 +1,57 @@
 body{
 	font-family: monospace;
 	color: white;
-	background-image: url("back.jpg");
-	background-color: rgba(20, 20, 20, 80%);
-	background-blend-mode: darken;
+	background-color: rgb(10, 10, 10);
+	margin:
+}
+
+a:link{
+	font-size: 18pt;
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	font-size: 18pt;
+	text-decoration: none;
+	color: white;
+
+}
+
+p{
+	font-size: 12pt;
+	margin: 10px;
+}
+
+li{
+	text-decoration-style: none;
+}
+.nav {
+	margin-top: 15px;
 	
-	
+	padding-right:88px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	font-family: inherit;
 }
 
 .contact{
 	border: 2px solid white;
 }
 
-.nav {
-	margin-top: 15px;
-	border-bottom: 5px solid rgb(120,150, 200);
-	padding-right:88px;
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	font-family: inherit;
-}
-
 .nav h1{
 	align-self: flex-start;
 	font-size: 44pt;
 }
+
 .nav ul{
 	margin: 0px 3px;
 	align-content: center;
 	
 }
+
 .nav li{
-	text-decoration: none;
 	display: inline-block;
 	
 	font-size: 20px;
@@ -50,32 +69,34 @@ body{
 	transform: scale(1.1);
 }
 
-.nav a:link{
-	text-decoration: none;
-	color: white;
+.jumbotron {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: white;
+	color: black;
+	border-bottom: rgba(10, 10, 10, 60%);
 }
 
-.nav a:visited{
-	text-decoration: none;
-	color: white;
-
+.sec1 { 
+	/*display: flex;*/
+	align-items: 
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+	background-color: white;
+	
 }
 
-
-.row { 
+.top {
 	display: flex;
-	width: 100%;
-}
-
-.left {
-	display: flex;
-	float: left;
-	width: 50%;
 	align-content: center;
 	justify-content: center;
 }
 
 .pic {
+	margin: 50px;
 	border-radius: 50%;
 	flex-grow: 1s 1.1;
 	transition: all 1s;
@@ -87,21 +108,19 @@ body{
 	transform: scale(1.1);
 }
 
-.right{
-	border-left: 2px solid rgba(120, 150, 200, 35%);
-	float: right;
-	width: 50%;
+.bottom{
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: black;
+	justify-content: flex-end;
+	border-top: 2px solid rgba(10, 10, 10, 15%);
+	justify-content: center;
+	
 }
 
-p{
-	font-size: 12pt;
-	margin: 10px;
-}
 
-.jumbotron {
-	margin-top: 20px;
-	background-color: rgb(120,150, 200);
-	color: white;
-}
+
+
 
 }
