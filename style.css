@@ -108,6 +108,18 @@ li{
 	transform: scale(1.1);
 }
 
+.homepics {
+	margin: 50px;
+	border-radius: 50%;
+	flex-grow: 1s 1.1;
+	transition: all 1s;
+	height: 300px;
+	width: 300px;
+}
+
+.homepics:hover {
+	transform: scale(1.1);
+}
 .bottom{
 	margin-top: 10px;
 	margin-left: 20px;
