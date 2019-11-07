@@ -1,9 +1,14 @@
-body{
+
+body {
 	font-family: monospace;
-	color:rgb(1, 5, 5);
-	background-color: rgb(255, 255, 255);
-	margin:
+	color: rgb(104, 150, 255);
+	background-image: url("blue.jpg");
+	background-blend-mode: luminosity;
+	background-size: 100%;
+	position: scroll;
+	margin: 10px;
 }
+
 
 a:link{
 	font-size: 18pt;
@@ -28,21 +33,12 @@ li{
 }
 .nav {
 	margin-top: 15px;
-	
-	padding-right:88px;
+	background-color: rgba(233, 4, 4, 0.575);
+	padding-right:8px;
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	font-family: inherit;
-}
-
-.contact{
-	border: 2px solid white;
-}
-
-.nav h1{
-	align-self: flex-start;
-	font-size: 44pt;
 }
 
 .nav ul{
@@ -54,7 +50,7 @@ li{
 .nav li{
 	display: inline-block;
 	
-	font-size: 20px;
+	font-size: 12px;
 	padding: 15px 15px;
 	text-align:center;
 	border-radius: 3px;
@@ -73,21 +69,11 @@ li{
 	margin-top: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
-	background-color: white;
-	color: black;
-	border-bottom: rgba(10, 10, 10, 60%);
+	background: transparent;
+	color: white;
+	border-bottom: rgba(10, 10, 10, 65%);
 }
 
-.sec1 { 
-	/*display: flex;*/
-	align-items: 
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border-radius: 5px;
-	background-color: white;
-	
-}
 
 .top {
 	display: flex;
@@ -129,10 +115,4 @@ li{
 	border-top: 2px solid rgba(10, 10, 10, 15%);
 	justify-content: center;
 	
-}
-
-
-
-
-
 }
