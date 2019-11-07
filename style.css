@@ -2,7 +2,7 @@
 body {
 	font-family: monospace;
 	color: rgb(104, 150, 255);
-	background-image: url("blue.jpg");
+	background-image: linear-gradient(rgba(0, 0, 255, 0.623), rgba(255, 255, 0, 0.5)), url("blue.jpg");
 	background-blend-mode: luminosity;
 	background-size: 100%;
 	position: scroll;
