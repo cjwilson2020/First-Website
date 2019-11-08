@@ -1,14 +1,20 @@
 
 body {
 	font-family: monospace;
-	color: rgb(104, 150, 255);
-	background-image: url("blue.jpg");
-	background-blend-mode: luminosity;
-	background-size: 100%;
-	position: scroll;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 4px 5px black;
+	background-color: white;
+	
 	margin: 10px;
 }
 
+.home{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 0, 0.719)), url("blue.jpg");
+	background-blend-mode: color-dodge;
+	
+	background-attachment: scroll;
+	background-size: 100% 100%;
+}
 
 a:link{
 	font-size: 18pt;
@@ -33,12 +39,14 @@ li{
 }
 .nav {
 	margin-top: 15px;
-	background-color: rgba(233, 4, 4, 0.575);
+	background-color: rgba(0, 0, 0, 0.575);
+	box-shadow: 1px 1px 8px black;
 	padding-right:8px;
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	font-family: inherit;
+	font-size: 4px;
 }
 
 .nav ul{
@@ -49,14 +57,11 @@ li{
 
 .nav li{
 	display: inline-block;
-	
-	font-size: 12px;
 	padding: 15px 15px;
 	text-align:center;
 	border-radius: 3px;
 	margin: 0px 6px;
 	height: 60px;
-	
 	flex-grow: 1s 1.1;
 	transition: all 1s;
 }
@@ -66,9 +71,11 @@ li{
 }
 
 .jumbotron {
-	margin-top: 10px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
 	background: transparent;
 	color: white;
 	border-bottom: rgba(10, 10, 10, 65%);
@@ -83,6 +90,7 @@ li{
 
 .pic {
 	margin: 50px;
+	position: ;
 	border-radius: 50%;
 	flex-grow: 1s 1.1;
 	transition: all 1s;
@@ -115,4 +123,9 @@ li{
 	border-top: 2px solid rgba(10, 10, 10, 15%);
 	justify-content: center;
 	
+}
+
+.sep {
+	background-color: yellow;
+	height: 40px;
 }
