@@ -5,15 +5,17 @@ body {
 	color: rgb(255, 255, 255);
 	text-shadow: 2px 4px 5px black;
 	background-color: white;
-	
+	background-attachment: scroll;
 	margin: 10px;
+	height: 15000px;
 }
 
 .home{
+	background-color: rgb(199, 83, 83);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 0, 0.719)), url("blue.jpg");
-	background-blend-mode: color-dodge;
-	
-	background-attachment: scroll;
+	background-blend-mode: luminosity;
+	background-position: top;
+
 	background-size: 100% 100%;
 }
 
@@ -76,6 +78,7 @@ li{
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 10px;
+	height: 300px;
 	padding: 0px;
 	background: transparent;
 	color: white;
@@ -128,6 +131,6 @@ li{
 
 .sep {
 	background-color: white;
-	border-bottom: 20px rgba(0, 0, 0, 1.0); 
-	height: 40px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.575); 
+	height: 80px;
 }
