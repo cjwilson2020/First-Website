@@ -1,6 +1,7 @@
 
 body {
 	font-family: monospace;
+
 	color: rgb(255, 255, 255);
 	text-shadow: 2px 4px 5px black;
 	background-color: white;
@@ -71,10 +72,10 @@ li{
 }
 
 .jumbotron {
-	margin-top: 0px;
+	margin-top: 10px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	padding: 0px;
 	background: transparent;
 	color: white;
@@ -90,7 +91,7 @@ li{
 
 .pic {
 	margin: 50px;
-	position: ;
+	
 	border-radius: 50%;
 	flex-grow: 1s 1.1;
 	transition: all 1s;
@@ -126,6 +127,7 @@ li{
 }
 
 .sep {
-	background-color: yellow;
+	background-color: white;
+	border-bottom: 20px rgba(0, 0, 0, 1.0); 
 	height: 40px;
 }
