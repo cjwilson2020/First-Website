@@ -101,8 +101,20 @@ li{
 .sep {
 	margin-top: 10px;
 	margin-left: 20px;
+<<<<<<< HEAD
 	position: relative;
 	color: black;
+=======
+	margin-right: 20px;
+	
+	justify-content: flex-end;
+	border-top: 2px solid rgba(10, 10, 10, 15%);
+	justify-content: center;
+	
+}
+
+.sep {
+>>>>>>> e434486f98ab7a0e60c03f3436bcdf0bea25f6cc
 	background-color: white;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.575); 
 }
