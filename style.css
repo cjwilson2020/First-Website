@@ -1,3 +1,15 @@
+
+body {
+	font-family: monospace;
+
+	color: black;
+	text-shadow: 2px 4px 5px black;
+	background-color: white;
+	background-attachment: scroll;
+	margin: 10px;
+	height: 15000px;
+}
+
 a:link{
 	font-size: 18pt;
 	text-decoration: none;
@@ -48,7 +60,6 @@ li{
 	flex-grow: 1s 1.1;
 	transition: all 1s;
 }
-
 .nav li:hover {
 	transform: scale(1.1);
 }
@@ -76,6 +87,7 @@ body {
 }
 
 
+
 .d2 {
 	background-color: white;
 	margin-left: 0px;
@@ -95,6 +107,7 @@ body {
 
 .d3 {
 	background-color: #5680E9;
+
 	color: white;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -121,9 +134,10 @@ body {
 }
 
 
+
 .d5 {
 	background-color: #8860d0;
-	color:white;
+	color: white;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0pxpx;
@@ -143,7 +157,6 @@ body {
 
 .pic {
 	margin: 50px;
-	
 	border-radius: 50%;
 	flex-grow: 1s 1.1;
 	transition: all 1s;
@@ -153,10 +166,6 @@ body {
 
 .pic:hover {
 	transform: scale(1.1);
-}
-
-.homepic {
-	
 }
 
 .homepics:hover {
